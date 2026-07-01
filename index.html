@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Dnyaneshwar Gond" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Dnyaneshwar Gond">Dnyaneshwar Ganesh Gond</h1>
+
+          <p class="title">Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">gonddnyaneshwar84@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 8484998261</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">July 23, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>India,Maharshtra,Nanded,Kandhar,Panbhosi</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="facebook">
+            <a href="https://www.facebook.com/dnyaneshwar.gond.98" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="linkedin">
+            <a href="linkedin.com/in/dnyaneshwar-gond-940b83280" class="">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I'm a Java Full-Stack Developer from Maharashtra, India, passionate about building scalable, secure, and user-friendly web applications. I specialize in Java, Spring Boot, Microservices, React, REST APIs, and MySQL, with a strong focus on writing clean, efficient, and maintainable code.
+          </p>
+
+          <p>
+            As an AI and Cybersecurity enthusiast, I continuously explore emerging technologies and enjoy transforming innovative ideas into impactful software solutions. My mission is to develop intelligent, future-ready digital products that solve complex real-world challenges, create exceptional user experiences, and deliver lasting value to both users and businesses.
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🚀 Full-Stack Development</h4>
+
+                <p class="service-item-text">
+                  Build scalable, secure, and responsive web applications using Java, Spring Boot, React, REST APIs, and MySQL.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> ☁️ Cloud, DevOps & Backend Development
+</h4>
+
+                <p class="service-item-text">
+                  Design, deploy, and manage scalable backend applications with secure RESTful APIs, cloud platforms, Docker, CI/CD pipelines, database integration, and modern DevOps practices.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">🤖 AI Prompt Engineering & Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  Build intelligent AI applications with advanced prompt engineering and secure development practices.
+Focus on automation, privacy, security, and responsible AI implementation.
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">📢 Campus Marketing & Brand Advocacy</h4>
+
+                <p class="service-item-text">
+                  Served as an EDC IIT Delhi Campus Ambassador and GeeksforGeeks Campus Mantri, driving campus marketing and community engagement.
+Reached 600+ LinkedIn followers through tech promotion and earned a Recommendation Letter from EDC IIT Delhi.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>cognify client</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Dnyaneshwar is a passionate Full-Stack Java Developer who transforms complex ideas into efficient solutions. He is reliable, detail-oriented, and always committed to delivering excellence."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item"> -->
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <!-- <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar> -->
+                </figure>
+
+                
+                
+                
+                
+
+                
+
+              
+               
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              
+
+              <time datetime="2021-06-14">5 feb, 2025</time>
+
+              
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://home.iitd.ac.in/public/storage/uploads/Picture1_1769758820.jpg" alt="client logo" height="170">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNlaay_ZCmio3F5I71IjHMSLRo6fQHOH3NnQ&s" width100 height100="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd_hBlqWqr2lFLXGcpGqmU8S2g3BG2KqfLgg&s" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://media.licdn.com/dms/image/v2/D560BAQHDmIfYA5sY7w/company-logo_200_200/company-logo_200_200/0/1685777115831?e=2147483647&v=beta&t=BrbAEJ0lciXi69uR0VBVOdOGHno8XzclslDmxrVYaNI" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://media.licdn.com/dms/image/v2/C4D0BAQE3X5KMFS0Zxg/company-logo_200_200/company-logo_200_200/0/1675245035750/ittindia_logo?e=2147483647&v=beta&t=gJ_tJA-KxC__K1g5fjKUVpLajsKNdhBmnZrWk1X2ssM" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://www.codeboosters.in/images/CODEBOOSTER.jpg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sveri's College of Engineering Pandharpur</h4>
+
+              <span>2023 — 2027</span>
+
+              <p class="timeline-text">
+                
+                Pursuing a B.Tech in Computer Science & Engineering (2023–2027) at SVERI's College of Engineering, Pandharpur.
+Building expertise in Java Full-Stack Development, AI, Cybersecurity, and cloud technologies through hands-on projects, certifications, and continuous learning.
+            
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">N.S.B college Panbhosi</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                Completed Higher Secondary Education (Science) at NSB College, Panbhosi, where I built a strong academic foundation in science.
+This journey sparked my passion for technology and prepared me for a career in Computer Science & Engineering.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shree Shivaji High School Kandhar</h4>
+
+              <span>2015 — 2020</span>
+
+              <p class="timeline-text">
+                "Completed my Secondary Education at Shri Shivaji High School, Kandhar laid the foundation for my academic journey.
+It nurtured my curiosity, discipline, and confidence to pursue a career in engineering.
+
+
+                
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> 🚀web Developer</h4>
+
+              <span>Feb 2025 — march 2025</span>
+
+              <p class="timeline-text">
+                Developed responsive and interactive web applications using HTML, CSS, and JavaScript during a 4-week virtual internship at CODSOFT.
+
+Improved front-end development, problem-solving, and debugging skills by building real-world web projects.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> 📢 Campus Marketing & Brand Advocacy</h4>
+
+              <span>2025 — 2026</span>
+
+              <p class="timeline-text">
+                Served as an EDC IIT Delhi Campus Ambassador (Dec 2025 – Feb 2026), leading campus outreach and marketing initiatives, and received a Recommendation Letter for outstanding performance.
+
+Currently serving as a GeeksforGeeks Campus Mantri Intern (Jun 2026 – Dec 2026), driving tech community engagement, organizing promotional campaigns, and increasing student participation.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> 🤖 AI Prompt Engineering & Cybersecurity </h4>
+
+              <span>2026 — Present </span>
+
+              <p class="timeline-text">
+                Building AI-powered applications using advanced prompt engineering, automation, and secure development practices.
+
+Focusing on privacy, responsible AI, and intelligent solutions to develop scalable and real-world applications.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">🚀Web development</h5>
+                <data value="80">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">📢 Campus Marketing & Brand Advocacy
+
+                </h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> 🤖 AI Prompt Engineering & Cybersecurity </h5>
+                <data value="90">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">☁️ Cloud & DevOps</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>🚀Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>📢 Campus Marketing & Brand Advocacy</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>☁️ Cloud,DevOps,AI & Prompt Engineering </button>
+            </li>
+
+          
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item> campus marketing & brand advocacy</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item> cloud & devops</button>
+              </li>
+
+               <li class="select-item">
+                <button data-select-item> ai & prompt engineering</button>
+              </li>
+
+                 <li class="select-item">
+                <button data-select-item>android application</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.shopify.com/s/files/1/0512/8827/7146/files/protein_Intake_calculator_Mobile.jpg?v=1744708618" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> Health & Fitness Calculator</h3>
+
+                <p class="project-category"> Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNmQQyH4K_AMO2qgwUXDpSCk1eBVfGaQ4lJr3E99EdwhwtxvBn595-JWq1&s=10" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">🔱🕉️ Explore Divine Spirituality: A Journey to Inner Peace Through the 12 Jyotirlingas...🌸</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="3D design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4AfdT7q_6fNpi9GcspZ0LJu0YgAhcm0Tkc9LfveBnUI6UzvRAX3z2sQY&s=10" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> 🏡Elite Homes & Designs ⭐⭐⭐⭐⭐
+Category: 3D Home Design & Real Estate</h3>
+
+                <p class="project-category">3D design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="android application">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla ✅ Battle Warriors ⭐⭐⭐</h3>
+
+                <p class="project-category">android application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://harishyam.com/cdn/shop/articles/Bhagwad_Gita_Chapter_4_Shlok_38.webp?v=178155389" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">🔱 Divine Spirituality: Awaken Your Mind, Heart & Soul Through the Bhagavad Gita</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">🛡️ AI-Powered Personal Device Security Dashboard </h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+      <li class="project-item active" data-filter-item data-category="campus marketing & brand advocacy">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="../assets/images/marketing.png" alt="Marketing" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Promoted tech initiatives through campus outreach, brand advocacy, and student engagement. ⭐⭐⭐⭐⭐</h3>
+
+    <p class="project-category">campus marketing & brand advocacy</p>
+
+  </a>
+</li>
+
+            <li class="project-item  active" data-filter-item data-category="cloud & devops">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://technative.eu/images/blog/Screenshot%202023-06-12%20at%2022.03.10.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">☁️ 🚀 Streamlining application deployment through cloud and DevOps practices. </h3>
+
+                <p class="project-category">cloud & devops</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai & prompt engineering">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/1*gZKqdXVgxQFI0dAYH_xahA.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">🧠 Developing AI-powered applications using effective prompt engineering techniques</h3>
+
+                <p class="project-category"> ai & prompt engineering</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Intrests
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title"> Interests </h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                   <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="../assets/images/kokan.jpeg" alt="Marketing" loading="lazy">
+    </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">✈️🌍⛺ travelling mountains and nature🛣️</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">26 Feb to 4 march 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🌍 Travelling isn't my hobby—it's my passion. ⭐</h3>
+
+                  <p class="blog-text">
+                    🌍✈️ Passionate about exploring the world, I believe every journey is an opportunity to learn, grow, and create lifelong memories. 🇮🇳 My dream is to travel across every state of India before discovering the diverse cultures and wonders of the world. 🌏✨
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSisCnFUgwy4WsCM4wnCHTMysS9HLDKNcs4RxuyzRbcNxGH6ewsDDB5dlff&s=10" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">📖🕉️ Reading spiritual books like the Bhagavad Gita and Mahapurana.</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">1 jan 2026 - Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🌿🧘 Finding inner peace, confidence, and purpose through spirituality.🌸</h3>
+
+                  <p class="blog-text">
+                    🌿✨Reading the Bhagavad Gita(solution of your every problem you are facing in your life ) , Mahapurana ( spritual belief & power of 12 sacred Jyotirlingas devoted to devonke ke dev mahadev ) & practicing meditation help me stay mentally calm, focused, and spiritually connected while maintaining a positive mindset & knowing the purpose of life .🌸
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSENfWKdRfkKVATRe68zvSFNDWddS-Gjx-fUYz_Db_RWMsaBVLqFLHM8h4&s=10" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Fitness & Healthy Lifestyle</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">1 jan 2026 - Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🏋️⚡💪 Building physical strength, mental resilience, and self-discipline through fitness. ⭐</h3>
+
+                  <p class="blog-text">
+                    🏋️ I have been consistently doing gym workouts for over a year without missing my routine. I believe inner motivation is more powerful than outer motivation, helping me stay physically fit, disciplined, and focused every day.⚡
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+            <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="../assets/images/farm.jpeg" alt="Marketing" loading="lazy" height="500" width="200">
+    </figure>
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">🌱🙏Passion for Agriculture</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">from childhood - Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🌾🚜Coming from a farming background, I value agriculture and sustainable practices while staying connected to my roots and nature.🌱🌿</h3>
+
+                  <p class="blog-text">
+                    🌾🚜 Agriculture is not just a profession for me—it's a way of life and a cherished tradition passed down through generations. 🌱🙏 It has taught me the values of hard work, patience, humility, and staying deeply connected to nature.🌱🌿
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://i.ytimg.com/vi/Y_VOz_0Nhyc/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLCcFo8vW4c384Sz0-c1aW_x4L8E_A&usqp=CCk" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">🎙️ Watching Educational Podcasts</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">1 jan 2026 - Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🎧🧠Watching educational podcasts helps me improve my observation skills, gain new perspectives, and continuously expand my knowledge.🚀 
+</h3>
+
+                  <p class="blog-text">
+                    🎙️I enjoy watching educational podcasts on technology, business, self-improvement, and spirituality to continuously expand my knowledge. They inspire me to think differently, develop new skills, and maintain a lifelong learning mindset.🎤🌟
+
+
+
+
+
+
+
+
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://searchengineland.com/wp-content/seloads/2017/11/human-robot-ai-machine-ss-1920.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">🤖 Exploring AI & Technology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2023 - Present</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">🤖 I use AI in my daily life to save time, improve efficiency, reduce errors, and make smarter decisions.⭐
+</h3>
+
+                  <p class="blog-text">
+                    "🧠 I believe AI is a powerful everyday tool that helps me save time, increase productivity, reduce mistakes, and continuously learn new things in both my personal and professional life.🚀
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30192.486636343212!2d77.17547388471498!3d18.92870145890384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfcd54ea3eeb53%3A0x49fe9963b5a9f467!2sPanbhosi%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1782902456570!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </figure>
+        </section>
+
+ <section class="contact-form">
+
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <form id="contact-form" class="form" data-form>
+
+    <div class="input-wrapper">
+
+      <input
+        type="text"
+        name="fullname"
+        class="form-input"
+        placeholder="Full Name"
+        required
+        data-form-input
+      >
+
+      <input
+        type="email"
+        name="email"
+        class="form-input"
+        placeholder="Email Address"
+        required
+        data-form-input
+      >
+
+    </div>
+
+    <textarea
+      name="message"
+      class="form-input"
+      placeholder="Your Message"
+      required
+      data-form-input
+    ></textarea>
+
+    <button
+      class="form-btn"
+      type="submit"
+      data-form-btn
+    >
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+
+</section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+ <!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="./assets/js/email.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
